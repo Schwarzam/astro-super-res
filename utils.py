@@ -5,6 +5,10 @@ import random
 import torchvision.transforms.functional as FT
 import torch
 import math
+import numpy as np
+
+from skimage.filters import median
+
 
 from logpool import control
 
@@ -121,6 +125,11 @@ def convert_image(img, source, target):
         img = torch.matmul(255. * img.permute(0, 2, 3, 1)[:, 4:-4, 4:-4, :], rgb_weights) / 255. + 16.
 
     return img
+
+def image_filter(img):
+    image_array = np.array(img)
+    imgf = median(image_array)
+    return imgf
 
 
 class ImageTransforms(object):
