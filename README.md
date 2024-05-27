@@ -1,5 +1,14 @@
 # astro-upscale
 
+Gustavo Bernard Schwarz - Ciência Computação Noturno <br>
+RA: 10389588 <br>
+
+Vincenzo Alberice - Ciência Computação Noturno <br>
+RA: 10389354 <br>
+
+Thales Lopes - Ciência Computação Noturno <br>
+RA: 10389343 <br>
+
 ### checkpoints e treinamento
 O treinamento da rede está no notebook [training.ipynb](training.ipynb). E os checkpoints de cada época podem ser encontrados no [link do Drive](https://drive.google.com/drive/folders/1Vr1qVFSZbHIruFV7Y5tQus2sovhtITFQ?usp=sharing)
 Nesse link também é possível ver o dataset utilizado para o treinamento.
