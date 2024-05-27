@@ -1,0 +1,13 @@
+GOODFELLOW, I. J. et al. Generative Adversarial Networks. arXiv (Cornell University), 10 jun. 2014.
+
+HE, K. et al. Deep Residual Learning for Image Recognition. arXiv (Cornell University), 10 dez. 2015.
+
+‌KALVANKAR, S. et al. Astronomical Image Colorization and upscaling with Generative Adversarial Networks. arXiv (Cornell University), 27 dez. 2021.
+
+KEIRON O'SHEA; NASH, R. R. An Introduction to Convolutional Neural Networks. arXiv (Cornell University), 26 nov. 2015.
+
+‌LEDIG, C. et al. Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network. 15 set. 2016.
+‌
+‌MENDES DE OLIVEIRA, C. et al. The Southern Photometric Local Universe Survey (S-PLUS): improved SEDs, morphologies, and redshifts with 12 optical filters. Monthly Notices of the Royal Astronomical Society, v. 489, n. 1, p. 241–267, 5 ago. 2019.
+
+‌https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution/tree/master
