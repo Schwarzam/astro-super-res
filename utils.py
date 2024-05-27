@@ -7,7 +7,8 @@ import torch
 import math
 import numpy as np
 
-from skimage.filters import median
+from skimage.filters import median, rank
+from skimage.morphology import disk
 
 
 from logpool import control
@@ -126,9 +127,19 @@ def convert_image(img, source, target):
 
     return img
 
-def image_filter(img):
+def image_filter(img, filter, size = 3):
+    footprint = disk(size)
     image_array = np.array(img)
-    imgf = median(image_array)
+    imgf = np.zeros_like(image_array)
+
+    if filter == 'median':
+        for channel in range(3):
+            imgf[:, :, channel] = median(image_array[:, :, channel], footprint=footprint)
+
+    if filter == 'mean':
+        for channel in range(3):
+            imgf[:, :, channel] = rank.mean(image_array[:, :, channel], footprint=footprint)
+
     return imgf
 
 
